@@ -7,7 +7,7 @@ namespace CoffeeShopConsoleApp
     /// <summary>
     /// A class that is used for coffe orders
     /// </summary>
-    public class Coffee 
+    public abstract class Coffee 
     {
         /// <summary>
         /// returns the price of the coffee
