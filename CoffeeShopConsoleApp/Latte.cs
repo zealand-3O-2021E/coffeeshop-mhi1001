@@ -6,7 +6,13 @@ namespace CoffeeShopConsoleApp
 {
     class Latte : Coffee , IMilk
     {
-        
+
+        public Latte(int discount) 
+            : base(discount)
+        {
+
+        }
+
         public override int price()
         {
             return 40;
